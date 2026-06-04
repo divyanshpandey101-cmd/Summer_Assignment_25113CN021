@@ -1,13 +1,13 @@
+/* Write a program to print Multiplication table of a given number */
+
 #include <stdio.h>
 
 int main() {
     int num;
 
-    // Input the number
     printf("Enter a number: ");
     scanf("%d", &num);
 
-    // Print multiplication table
     printf("Multiplication Table of %d:\n", num);
 
     for(int i = 1; i <= 10; i++) {
