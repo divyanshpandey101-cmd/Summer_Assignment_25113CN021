@@ -13,7 +13,6 @@ int main() {
         factorial *= i;
     }
 
-    // Display result
     printf("Factorial of %d = %lld\n", num, factorial);
 
     return 0;
