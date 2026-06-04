@@ -7,15 +7,13 @@ int result = 0;
 printf("Enter a number: ");    
 scanf("%d", &num);
     
-originalNum = num;
-    // Count the number of digits   
+originalNum = num;   
  while (originalNum != 0)
 {        
  digits++;        
  originalNum /= 10;    
 }
  originalNum = num;
-    // Calculate the sum of digits raised to the power of 'digits'   
  while (originalNum != 0) {       
  remainder = originalNum % 10;        
  result += (int)pow(remainder, digits);        
