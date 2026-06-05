@@ -7,8 +7,7 @@ int main() {
     scanf("%d", &num);
     temp = num;
     while (temp > 0) {
-        digit = temp % 10;
-        // Calculate factorial of the digit
+        digit = temp % 1;
         fact = 1;
         for (i = 1; i <= digit; i++) {
             fact = fact * i;

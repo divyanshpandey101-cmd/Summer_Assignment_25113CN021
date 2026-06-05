@@ -4,7 +4,6 @@ int main() {
     int num, i, sum = 0;
     printf("Enter a number to check if it's perfect: ");
     scanf("%d", &num);
-    // Add all divisors of num except itself
     for (i = 1; i < num; i++) {
         if (num % i == 0) {
             sum += i;
