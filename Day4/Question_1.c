@@ -8,7 +8,7 @@ printf("Fibonacci series: ");
 for (i = 0; i < n; i++) 
 {        
 if (i <= 1)            
-next = i;  // first two numbers are 0 and 1        
+next = i; 
 else {
 next = first + second;            
 first = second;  
