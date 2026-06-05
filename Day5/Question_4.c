@@ -6,7 +6,7 @@ int main() {
     scanf("%d", &num);
     for (i = 2; i <= num; i++) {
         if (num % i == 0) {  // check if i is a factor
-            // check if i is prime
+         
             isPrime = 1;
             for (j = 2; j <= i / 2; j++) {
                 if (i % j == 0) {
