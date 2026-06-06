@@ -8,7 +8,7 @@ int main() {
     printf("Enter the exponent (n): ");
     scanf("%d", &exponent);
     for (int i = 1; i <= exponent; i++) {
-        result = result * base;  // Multiply the base 'exponent' times
+        result = result * base;
     }
     printf("%d raised to the power %d is %d\n", base, exponent, result);
     return 0;
